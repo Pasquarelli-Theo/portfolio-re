@@ -11,7 +11,7 @@ import bouton from "@/components/bouton.vue";
         <h1 class="ml-4 text-8xl">C</h1>
         <h1 class="text-6xl">ORSAIRE</h1>
       </div>
-      <div class=""><img src="../assets/Affichecorsaire.png" class="w-max" /></div>
+      <div class=""><img src="../assets/Affichecorsaire.png" class="w-screen" /></div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl">ILLUSTRATION, STYLE DE CASSANDRE</h2></div>
       <div class="absolute right-14 z-10 mt-32 mr-5 w-3/6"><img src="../assets/PetitCorsaire.png" class="" /></div>
       <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>

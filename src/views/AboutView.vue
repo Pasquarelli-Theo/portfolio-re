@@ -7,7 +7,7 @@ import bouton from "@/components/bouton.vue";
     <div class="flex justify-center">
       <h2 class="font-aesthetic text-8xl text-white">T</h2>
       <h2 class="mt-5 font-aesthetic text-7xl text-white">HÉO</h2>
-      <h2 class="font-aesthetic text-8xl text-white">P</h2>
+      <h2 class="ml-4 font-aesthetic text-8xl text-white">P</h2>
       <h2 class="mt-5 font-aesthetic text-7xl text-white">ASQUARELLI</h2>
     </div>
     <div class="relative z-20 -ml-28 flex justify-center"><img src="../assets/info.png" class="" /></div>
@@ -75,3 +75,5 @@ import bouton from "@/components/bouton.vue";
     </div>
   </main>
 </template>
+
+<script></script>

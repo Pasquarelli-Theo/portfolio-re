@@ -5,7 +5,7 @@ import bouton from "@/components/bouton.vue";
 <template>
   <main class="bg-dark_grey1 text-white">
     <div>
-      <div class=""><img src="../assets/Affiche13bpm.png" class="w-max" /></div>
+      <div class=""><img src="../assets/Affiche13bpm.png" class="w-screen" /></div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl text-slate-300">FESTIVAL DE RAP</h2></div>
       <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6"><img src="../assets/Home13BPM.png" class="" /></div>
       <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>

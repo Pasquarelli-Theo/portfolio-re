@@ -4,7 +4,7 @@ import { ref } from "@vue/reactivity";
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 mt-10 h-11 w-full bg-white">
+  <header class="sticky top-0 z-40 mt-10 h-14 w-full bg-white">
     <div class="flex h-full w-full items-center justify-between">
       <div class="w-52">
         <RouterLink to="/">
@@ -68,7 +68,7 @@ import { ref } from "@vue/reactivity";
     <router-view />
   </Suspense>
 
-  <footer class="h-60 bg-black text-white">
+  <footer class="h- bg-black text-white">
     <br />
     <div class="ml-8 grid grid-flow-row-dense grid-cols-2">
       <img src="@/assets/logoBlanc.svg" class="m-8 w-44 bg-black" />

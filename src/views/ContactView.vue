@@ -7,7 +7,7 @@ import bouton from "@/components/bouton.vue";
     <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl text-white">CONTACT</h2></div>
 
     <div class="ml-auto mr-auto grid w-7/12">
-      <form action="" class="mt-52">
+      <form action="https://formsubmit.co/theopasquarelli68@gmail.com" method="POST" class="mt-52">
         <div class="grid grid-cols-2">
           <input type="text" placeholder="Votre nom" class="mb-6 w-96 border-b-2 bg-transparent pb-2 text-justify text-xl text-grey" />
 

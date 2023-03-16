@@ -11,7 +11,7 @@ import bouton from "@/components/bouton.vue";
         <h1 class="ml-4 text-8xl">2025</h1>
       </div>
 
-      <div class=""><img src="../assets/Afficheosaka.png" class="w-max" /></div>
+      <div class=""><img src="../assets/Afficheosaka.png" class="w-screen" /></div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl">EXPOSITION UNIVERSELLE 2025</h2></div>
       <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6"><img src="../assets/osaka1.png" class="" /></div>
       <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>
@@ -43,3 +43,5 @@ import bouton from "@/components/bouton.vue";
     </div>
   </main>
 </template>
+
+<script></script>

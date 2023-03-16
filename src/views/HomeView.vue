@@ -4,7 +4,7 @@
     <ul class="flex">
       <li class="relative flex-none">
         <img src="../assets/mer.jpg" class="h-auto w-screen" />
-        <div class="absolute inset-0 z-20 flex bottom-1/4 content-center items-center justify-center">
+        <div class="absolute inset-0  z-20 flex bottom-1/4 content-center items-center justify-center">
           <RouterLink to="/about">
             <div class="">
               <div class="flex">
@@ -42,7 +42,7 @@
               <img src="../assets/fleche.png" class="absolute inset-1/2 z-20 mt-32 -ml-8 flex h-12 content-center" />
             </div>
             <div class="absolute">
-              <p class="relative h-16 w-36 rotate-12 rounded-lg border-2 border-white pt-1 text-center font-okine text-white">
+              <p class="relative h-16 w-36 right-20 rotate-12 rounded-lg border-2 border-white pt-1 text-center font-okine text-white">
                 Sneakers personnalisées
             </p>
             </div>
@@ -50,7 +50,7 @@
         </div>
       </li>
 
-      <li class="h-screen w-screen flex-none relative">
+      <li class=" flex-none relative">
         <img src="../assets/13bpm.png" class="h-auto w-screen blur-sm" />
         <div class="absolute inset-0 z-20 flex bottom-1/4 content-center items-center justify-center">
           <RouterLink to="/13bpm">
@@ -63,7 +63,7 @@
               <img src="../assets/fleche.png" class="absolute inset-1/2 z-20 mt-32 -ml-8 flex h-12 content-center" />
             </div>
             <div class="absolute">
-              <p class="relative h-10 w-36 rotate-12 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
+              <p class="relative h-10 w-36 rotate-12 right-20 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
                Festival rap
             </p>
             </div>
@@ -71,7 +71,7 @@
         </div>
       </li>
 
-      <li class="h-screen w-screen flex-none relative">
+      <li class="h-auto w-screen flex-none relative">
         <img src="../assets/osaka.png" class="h-auto w-screen blur-sm" />
         <div class="absolute inset-0 z-20 flex bottom-1/4 content-center items-center justify-center">
           <RouterLink to="/osaka2025">
@@ -84,7 +84,7 @@
               <img src="../assets/fleche.png" class="absolute inset-1/2 z-20 mt-32 -ml-8 flex h-12 content-center" />
             </div>
             <div class="absolute">
-              <p class="relative h-10 w-36 rotate-12 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
+              <p class="relative h-10 right-20 w-36 rotate-12 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
                Expo universelle
             </p>
             </div>
@@ -92,7 +92,7 @@
         </div>
       </li>
 
-      <li class="h-screen w-screen flex-none relative">
+      <li class="h-auto w-screen flex-none relative">
         <img src="../assets/corsaire.png" class="h-auto w-screen blur-sm" />
         <div class="absolute inset-0 z-20 flex bottom-1/4 content-center items-center justify-center">
           <RouterLink to="/petitcorsaire">
@@ -106,7 +106,7 @@
               <img src="../assets/fleche.png" class="absolute inset-1/2 z-20 mt-32 -ml-8 flex h-12 content-center" />
             </div>
             <div class="absolute">
-              <p class="relative h-10 w-36 rotate-12 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
+              <p class="relative right-20 h-10 w-36 rotate-12 rounded-xl border-2 border-white pt-1 text-center font-okine text-white">
                Illustration
             </p>
             </div>
