@@ -25,21 +25,22 @@ import bouton from "@/components/bouton.vue";
       </div>
       <div class="right- absolute z-10 ml-36 -mt-80 w-4/12">
         <p class="-mt-16 text-right">
-          Le projet SkyWalker est un pret de marque de sneakers personnalisable créé en cours de design d’expérience lors de ma formation
-          MMI. L’objectif était de réaliser une interface adapté à la cible désignée en cours, ici un vendeurs d’une vingtaine d’années.
-          Mais également une interface simple d’utilisation pour être accessible par tousse pour toucher le maximum de clients potentiels.
-          Le site possède donc un visuel travaillé pour avoir la meilleure ergonomie possible en gardant un esprit moderne pour plaire au
-          jeune public qui est la cible principale.
+          LCette illustration à été réalisée dans le cadre d’un exercice en culture artistique, l’objectif était de créer une illustration
+          en reproduisant le style du graphiste Ukrainien Cassandre. Cette illustration à dû être produite au format carte postal, un format
+          qui s’oublie depuis quelques années. L’idée de cette illustration m'est venue en voyant l’illustration <u>Normandie</u> de
+          Cassandre représentant un immense bateau. J’ai donc voulu prendre cette affiche à contre pied en faisant un bateau de petite
+          taille avec un seul passager, on peut d’ailleurs voir le bateau de <u>Normandie</u> au fond de l’illustration. Le manga
+          <u>One Piece</u> a également eu une influence, d’où le titre qui est une référence directe au Grand corsaire de l’œuvre.
         </p>
       </div>
 
       <div class="absolute right-1 z-10 -mt-32 mr-28 w-5/12">
         <p class="">
-          La création de ce site s'est faite en plusieurs étapes, la première était de trouver un modèle adapté à la cible, un vendeur d’une
-          vingtaine d’années, un modèle adapté à un jeune public mais pouvant également plaire à un public plus large. Un logo a ensuite été
-          créé duquel à découler un brandboard afin d’avoir l’esprit du futur site. Des changements ont eu lieu car la première harmonie
-          colorée n’était pas adaptée, la seconde harmonie sera cette fois utilisée pour réaliser l’entièreté du site. Une affiche à ensuite
-          été réalisée ultérieurement.
+          Avant de créer cette illustration il a fallu mener des recherches sur les œuvres de Cassandre et surtout les analyser, les étudier
+          afin de pouvoir reproduire son style. Comme dit ci-dessus l’illustration Normandie a eu une grande importance pour l’inspiration
+          mais également pour le visuel directement. Lors de la création sur Illustrator, un croquis fait il y a plusieurs années m’est
+          revenu à l’esprit et m’a inspiré. Ce croquis représentait un vieil homme en train de pêcher seul dans une petite barque. Ce
+          travail est donc une accumulation de nombreuses inspirations et influences.
         </p>
       </div>
       <div class="flex justify-center">
