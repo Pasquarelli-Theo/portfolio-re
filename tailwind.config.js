@@ -26,12 +26,13 @@ module.exports = {
         "5xl": "2.5rem",
         "6xl": "3.75rem",
         "7xl": "4.375rem",
+        "xxl": "4.975rem",
         "8xl": "5.625rem",
       },
       fontFamily: {
         aesthetic: "Aesthetic",
-        "arsenica": "Arsenica Trial",
-        "okine": "MADE Okine Sans PERSONAL USE",
+        arsenica: "Arsenica Trial",
+        okine: "MADE Okine Sans PERSONAL USE",
       },
       borderRadius: {
         none: "0",

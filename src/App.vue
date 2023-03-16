@@ -23,7 +23,7 @@ import { ref } from "@vue/reactivity";
         <img src="@/assets/Menu.svg" class="mr-10 mb-10" />
         <span class="sr-only">Menu</span>
       </button>
- 
+
       <!--Bouton pour cacher menu-->
       <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : 'hidden']" class="mr-20 mb-16">
         <button class="fixed z-[99]" aria-controls="menu" :aria-expanded="menuOuvert">
@@ -45,16 +45,16 @@ import { ref } from "@vue/reactivity";
         <div class="mt-20 ml-10 flex items-center justify-center">
           <ul @click="menuOuvert = !menuOuvert">
             <div class="items-between flex flex-col">
-              <li class="mt-20 -ml-28 font-aesthetic hover:text-purple text-6xl text-black">
+              <li class="mt-20 -ml-28 font-aesthetic text-6xl text-black hover:text-purple">
                 <router-link class="" to="/"> 1. HOME </router-link>
               </li>
-              <li class="-mt-5 font-aesthetic hover:text-red-700 text-6xl text-black">
+              <li class="-mt-5 font-aesthetic text-6xl text-black hover:text-red-700">
                 <router-link class="" to="/projets"> 2. PROJETS </router-link>
               </li>
-              <li class="-mt-5 -ml-16 font-aesthetic hover:text-purple text-6xl text-black">
+              <li class="-mt-5 -ml-16 font-aesthetic text-6xl text-black hover:text-purple">
                 <router-link class="" to="/about"> 3. À PROPOS </router-link>
               </li>
-              <li class="-mt-5 ml-20 font-aesthetic hover:text-red-700 text-6xl text-black">
+              <li class="-mt-5 ml-20 font-aesthetic text-6xl text-black hover:text-red-700">
                 <router-link class="" to="/contact"> 4. CONTACT </router-link>
               </li>
             </div>
@@ -68,11 +68,11 @@ import { ref } from "@vue/reactivity";
     <router-view />
   </Suspense>
 
-  <footer class="bg-black text-white">
+  <footer class="h-60 bg-black text-white">
     <br />
     <div class="ml-8 grid grid-flow-row-dense grid-cols-2">
       <img src="@/assets/logoBlanc.svg" class="m-8 w-44 bg-black" />
-      <div class="-ml-96 mt-10">
+      <div class="-ml-96 mt-10 pl-10">
         <p class="-ml-36 font-okine text-xs">+33(0)6 62 92 47 75</p>
         <a href="mailto:theopasquarelli68@gmail.com" class="-ml-36 font-okine text-xs">theopasquarelli68@gmail.com</a>
       </div>
@@ -81,7 +81,7 @@ import { ref } from "@vue/reactivity";
     <div class="absolute right-0 -mt-32 mr-28 flex">
       <img src="@/assets/linkedin.png" class="w-12" />
     </div>
-    <div class="absolute right-0 -mt-14 mr-28 font-okine font-light text-xs"><RouterLink to="/mentions">Mentions légales</RouterLink></div>
+    <!-- <div class="absolute right-0 -mt-14 mr-28 font-okine font-light text-xs"><RouterLink to="/mentions">Mentions légales</RouterLink></div> -->
   </footer>
 </template>
 
