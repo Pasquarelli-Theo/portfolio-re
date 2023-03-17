@@ -5,10 +5,20 @@ import bouton from "@/components/bouton.vue";
 <template>
   <main class="bg-dark_grey1 text-white">
     <div>
-      <div class=""><img src="../assets/Affiche13bpm.png" class="w-screen" /></div>
+      <div class="">
+        <img src="../assets/Affiche13bpm.png" alt="affiche du festival 13bpm" class="w-screen" />
+        <img
+          src="../assets/flecheScroll.png"
+          alt="flèche"
+          class="absolute inset-2/4 top-96 z-30 mt-64 h-16"
+          onclick="window.scrollBy(0, 900)"
+        />
+      </div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl text-slate-300">FESTIVAL DE RAP</h2></div>
-      <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6"><img src="../assets/Home13BPM.png" class="" /></div>
-      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>
+      <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6">
+        <img src="../assets/Home13BPM.png" alt="screen de la page d'accueil du site 13bpm" class="" />
+      </div>
+      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
       <div class="absolute right-1/3 z-10 mr-24 -mt-96"><h3 class="-mt-20 font-aesthetic text-5xl">13 BPM</h3></div>
       <div class="absolute right-1/3 z-10 mr-24 -mt-80 w-2/5">
         <p class="-mt-16 text-right">
@@ -19,7 +29,9 @@ import bouton from "@/components/bouton.vue";
           rap le faisait et le fait encore de nos jours.
         </p>
       </div>
-      <div class="absolute right-96 z-10 -mt-48 mr-72 w-4/12"><img src="../assets/Dinos.png" class="" /></div>
+      <div class="absolute right-96 z-10 -mt-48 mr-72 w-4/12">
+        <img src="../assets/Dinos.png" alt="screen de la page Dinos du site 13bpm" class="" />
+      </div>
       <div class="absolute right-1 z-10 mr-28 mt-20 mb-96 w-4/12">
         <p class="">
           Comme expliqué ci-dessus, j’ai créé le projet 13 BPM en totalité, développement du site compris bien que ce ne soit pas mon

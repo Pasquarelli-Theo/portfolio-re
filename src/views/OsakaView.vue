@@ -11,10 +11,18 @@ import bouton from "@/components/bouton.vue";
         <h1 class="ml-4 text-8xl">2025</h1>
       </div>
 
-      <div class=""><img src="../assets/Afficheosaka.png" class="w-screen" /></div>
+      <div class="">
+        <img src="../assets/Afficheosaka.png" alt="Aperçu affiche Osaka 2025" class="w-screen" />
+        <img
+          src="../assets/flecheScroll.png"
+          alt="flèche"
+          class="absolute inset-2/4 top-96 z-30 mt-64 h-16"
+          onclick="window.scrollBy(0, 900)"
+        />
+      </div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl">EXPOSITION UNIVERSELLE 2025</h2></div>
-      <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6"><img src="../assets/osaka1.png" class="" /></div>
-      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>
+      <div class="absolute right-14 z-10 mt-28 mr-5 w-2/6"><img src="../assets/osaka1.png" alt="Affiche Osaka 2025 n°1" class="" /></div>
+      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
       <div class="absolute right-1/3 z-10 mr-24 -mt-96"><h3 class="-mt-20 font-aesthetic text-5xl">OSAKA 2025</h3></div>
       <div class="absolute right-1/3 z-10 mr-24 -mt-80 w-2/5">
         <p class="-mt-16 text-right">
@@ -25,7 +33,7 @@ import bouton from "@/components/bouton.vue";
           protéger la planète. Plusieurs langues sont présentes sur l’affiche pour exposer le côté international.
         </p>
       </div>
-      <div class="absolute right-96 z-10 -mt-40 mr-72 w-3/12"><img src="../assets/osaka2.png" class="" /></div>
+      <div class="absolute right-96 z-10 -mt-40 mr-72 w-3/12"><img src="../assets/osaka2.png" alt="Affiche Osaka 2025 n°2" class="" /></div>
       <div class="absolute right-1 z-10 mr-28 mt-20 mb-96 w-4/12">
         <p class="">
           Ce projet a été créé à deux et réfléchi à deux, mon binôme a également créé des variantes de ces affiches sous un format de carte

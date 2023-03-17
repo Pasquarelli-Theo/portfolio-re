@@ -8,7 +8,7 @@ import { ref } from "@vue/reactivity";
     <div class="flex h-full w-full items-center justify-between">
       <div class="w-52">
         <RouterLink to="/">
-          <img src="@/assets/logoNoir.svg" alt="Logo" class="ml-10" />
+          <img src="@/assets/logoNoir.svg" alt="Logo de Théo Pasquarelli" class="ml-10" />
         </RouterLink>
       </div>
 
@@ -20,14 +20,14 @@ import { ref } from "@vue/reactivity";
         @click="menuOuvert = !menuOuvert"
         :class="[menuOuvert ? 'hidden' : '']"
       >
-        <img src="@/assets/Menu.svg" class="mr-10 mb-10" />
+        <img src="@/assets/Menu.svg" alt="icone menu" class="mr-10 mb-10" />
         <span class="sr-only">Menu</span>
       </button>
 
       <!--Bouton pour cacher menu-->
       <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : 'hidden']" class="mr-20 mb-16">
         <button class="fixed z-[99]" aria-controls="menu" :aria-expanded="menuOuvert">
-          <img src="@/assets/menu_fermer.svg" class="h-6 w-auto" />
+          <img src="@/assets/menu_fermer.svg" alt="icone croix du menu" class="h-6 w-auto" />
           <span class="sr-only">Menu</span>
         </button>
       </div>
@@ -71,7 +71,7 @@ import { ref } from "@vue/reactivity";
   <footer class="h- bg-black text-white">
     <br />
     <div class="ml-8 grid grid-flow-row-dense grid-cols-2">
-      <img src="@/assets/logoBlanc.svg" class="m-8 w-44 bg-black" />
+      <img src="@/assets/logoBlanc.svg" alt="Logo de Théo Pasquarelli" class="m-8 w-44 bg-black" />
       <div class="-ml-96 mt-10 pl-10">
         <p class="-ml-36 font-okine text-xs">+33(0)6 62 92 47 75</p>
         <a href="mailto:theopasquarelli68@gmail.com" class="-ml-36 font-okine text-xs">theopasquarelli68@gmail.com</a>
@@ -79,9 +79,8 @@ import { ref } from "@vue/reactivity";
     </div>
 
     <div class="absolute right-0 -mt-32 mr-28 flex">
-      <img src="@/assets/linkedin.png" class="w-12" />
+      <img src="@/assets/linkedin.png" alt="Logo LinkedIn" class="w-12" />
     </div>
-    <!-- <div class="absolute right-0 -mt-14 mr-28 font-okine font-light text-xs"><RouterLink to="/mentions">Mentions légales</RouterLink></div> -->
   </footer>
 </template>
 

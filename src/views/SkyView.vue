@@ -5,10 +5,21 @@ import bouton from "@/components/bouton.vue";
 <template>
   <main class="bg-dark_grey1 text-white">
     <div>
-      <div class=""><img src="../assets/AfficheSkyWalker.jpg" class="w-max" /></div>
+      <div class="">
+        <img src="../assets/AfficheSkyWalker.jpg" alt="Affiche de sneakers SkyWalker" class="w-screen" />
+        <img
+          src="../assets/flecheScroll.png"
+          alt="flèche"
+          class="absolute inset-2/4 top-96 z-30 mt-64 h-16"
+          onclick="window.scrollBy(0, 900)"
+        />
+      </div>
+
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl">SNEAKERS PERSONNALISABLE</h2></div>
-      <div class="absolute right-14 z-10 mt-24 mr-5 w-2/6"><img src="../assets/HomeSkywalker.png" class="" /></div>
-      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>
+      <div class="absolute right-14 z-10 mt-24 mr-5 w-2/6">
+        <img src="../assets/HomeSkywalker.png" alt="screen de la page d'accueil du site SkyWalker" class="" />
+      </div>
+      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
       <div class="absolute right-1/3 z-10 mr-24 -mt-96">
         <div class="flex">
           <h3 class="-mt-16 font-aesthetic text-5xl">S</h3>
@@ -26,7 +37,9 @@ import bouton from "@/components/bouton.vue";
           jeune public qui est la cible principale.
         </p>
       </div>
-      <div class="absolute right-96 z-10 -mt-40 mr-72 w-4/12"><img src="../assets/PersonnalisationProfil.png" class="" /></div>
+      <div class="absolute right-96 z-10 -mt-40 mr-72 w-4/12">
+        <img src="../assets/PersonnalisationProfil.png" alt="screen de la page personnalisation du site SkyWalker" class="" />
+      </div>
       <div class="absolute right-1 z-10 mr-28 mt-3 mb-96 w-4/12">
         <p class="">
           La création de ce site s'est faite en plusieurs étapes, la première était de trouver un modèle adapté à la cible, un vendeur d’une

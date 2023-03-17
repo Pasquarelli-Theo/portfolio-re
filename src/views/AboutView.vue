@@ -10,8 +10,10 @@ import bouton from "@/components/bouton.vue";
       <h2 class="ml-4 font-aesthetic text-8xl text-white">P</h2>
       <h2 class="mt-5 font-aesthetic text-7xl text-white">ASQUARELLI</h2>
     </div>
-    <div class="relative z-20 -ml-28 flex justify-center"><img src="../assets/info.png" class="" /></div>
-    <div class="absolute right-0 z-0 -mt-40"><img src="../assets/CroixProjets.png" class="" /></div>
+    <div class="relative z-20 -ml-28 flex justify-center">
+      <img src="../assets/info.png" alt="Photo de Théo Pasquaelli divisé en plusieurs blocs" class="" />
+    </div>
+    <div class="absolute right-0 z-0 -mt-40"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
     <h4 class="ml-44 font-arsenica text-4xl text-white">Designer & Web Designer</h4>
     <div class="flex justify-center">
       <p class="mt-10 w-9/12 font-okine text-base text-white">
@@ -33,44 +35,48 @@ import bouton from "@/components/bouton.vue";
     </div>
     <div class="mt-24 mr-36 ml-36 grid grid-flow-row-dense grid-cols-4">
       <div class="text-center">
-        <img src="../assets/illustrator.png" class="inline-flex w-16" />
+        <img src="../assets/illustrator.png" alt="Logo d'Illustrator" class="inline-flex w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">Illustrator</p>
       </div>
       <div class="text-center">
-        <img src="../assets/figma.png" class="inline-flex h-auto w-16" />
+        <img src="../assets/figma.png" alt="Logo de Figma" class="inline-flex h-auto w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">Figma</p>
       </div>
       <div class="text-center">
-        <img src="../assets/photoshop.png" class="inline-flex w-16" />
+        <img src="../assets/photoshop.png" alt="Logo de Photoshop" class="inline-flex w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">Photoshop</p>
       </div>
       <div class="text-center">
-        <img src="../assets/indesign.png" class="inline-flex w-16" />
+        <img src="../assets/indesign.png" alt="Logo de InDesign" class="inline-flex w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">InDesign</p>
       </div>
     </div>
 
     <div class="mt-16 mb-16 mr-72 ml-72 grid grid-flow-row-dense grid-cols-3">
       <div class="text-center">
-        <img src="../assets/after.png" class="inline-flex w-16" />
+        <img src="../assets/after.png" alt="Logo d'After Effect" class="inline-flex w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">After</p>
       </div>
       <div class="text-center">
-        <img src="../assets/premiere.png" class="inline-flex h-auto w-16" />
+        <img src="../assets/premiere.png" alt="Logo de PremierePro" class="inline-flex h-auto w-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">Premiere Pro</p>
       </div>
       <div class="text-center">
-        <img src="../assets/vscode.png" class="inline-flex h-16" />
+        <img src="../assets/vscode.png" alt="Logo de VS Code" class="inline-flex h-16" />
         <p class="inline-tabl font-okine text-sm font-light text-white">VS Code</p>
       </div>
     </div>
 
     <div class="grid grid-flow-row-dense grid-cols-2 bg-white">
-      
-      <div><br /><p class="mt-9 mb-16 ml-64 w-80 font-arsenica text-4xl font-semibold">Envie de collaborer sur une projet ?</p></div>
+      <div>
+        <br />
+        <p class="mt-9 mb-16 ml-64 w-80 font-arsenica text-4xl font-semibold">Envie de collaborer sur une projet ?</p>
+      </div>
       <div class="mt-20">
-        <RouterLink to="/contact"><p class="text-center -ml-44 font-medium text-2xl">Me contacter</p></RouterLink>
-        <div class="text-center"><a href="mailto:theopasquarelli68@gmail.com" class="font-okine text-lg text-grey">theopasquarelli68@gmail.com</a></div>
+        <RouterLink to="/contact"><p class="-ml-44 text-center text-2xl font-medium">Me contacter</p></RouterLink>
+        <div class="text-center">
+          <a href="mailto:theopasquarelli68@gmail.com" class="font-okine text-lg text-grey">theopasquarelli68@gmail.com</a>
+        </div>
       </div>
     </div>
   </main>

@@ -11,10 +11,20 @@ import bouton from "@/components/bouton.vue";
         <h1 class="ml-4 text-8xl">C</h1>
         <h1 class="text-6xl">ORSAIRE</h1>
       </div>
-      <div class=""><img src="../assets/Affichecorsaire.png" class="w-screen" /></div>
+      <div class="">
+        <img src="../assets/Affichecorsaire.png" alt="Aperçu carte Petit Corsaire" class="w-screen" />
+        <img
+          src="../assets/flecheScroll.png"
+          alt="flèche"
+          class="absolute inset-2/4 top-96 z-30 mt-64 h-16"
+          onclick="window.scrollBy(0, 900)"
+        />
+      </div>
       <div class="absolute right-0 z-30"><h2 class="mt-14 mr-36 font-aesthetic text-6xl">ILLUSTRATION, STYLE DE CASSANDRE</h2></div>
-      <div class="absolute right-14 z-10 mt-32 mr-5 w-3/6"><img src="../assets/PetitCorsaire.png" class="" /></div>
-      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" class="" /></div>
+      <div class="absolute right-14 z-10 mt-32 mr-5 w-3/6">
+        <img src="../assets/PetitCorsaire.png" alt="Carte postale Petit Corsaire" class="" />
+      </div>
+      <div class="z-0 mt-52"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
       <div class="absolute z-10 ml-80 -mt-96 pl-24">
         <div class="flex">
           <h3 class="-mt-16 font-aesthetic text-5xl">P</h3>
