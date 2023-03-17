@@ -2,4 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Mettre ici les styles "globaux" */
+@font-face {
+  font-family: "aesthetic";
+  src: url("../public/fonts/AestheticRegular-Yzraq.otf");
+}
+
+@font-face {
+  font-family: "arsenica";
+  src: url("../public/fonts/ArsenicaTrial-Regular.ttf");
+}
+
+@font-face {
+  font-family: "okineL";
+  src: url("../public/fonts/MADEOkineSansPERSONALUSE-Light.otf");
+}
+
+@font-face {
+  font-family: "okineR";
+  src: url("../public/fonts/MADEOkineSansPERSONALUSE-Regular.otf");
+}
