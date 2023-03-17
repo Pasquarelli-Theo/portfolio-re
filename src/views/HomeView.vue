@@ -14,8 +14,10 @@
                 <h2 class="mt-4 font-aesthetic text-xxl text-white">ASQUARELLI</h2>
               </div>
               <div class="flex justify-center">
-                <h2 class="font-aesthetic text-9xl text-white">P</h2>
-                <h2 class="mt-4 font-aesthetic text-xxl text-white">ORTFOLIO</h2>
+                <h2 class="font-aesthetic text-9xl text-white">W</h2>
+                <h2 class="mt-4 font-aesthetic text-xxl text-white">EB</h2>
+                <h2 class="font-aesthetic text-9xl text-white">D</h2>
+                <h2 class="mt-4 font-aesthetic text-xxl text-white">ESIGNER</h2>
               </div>
               <img src="../assets/fleche.png" alt="flèche" class="absolute inset-1/2 z-20 mt-32 -ml-8 flex h-12 content-center" /></div
           ></RouterLink>
