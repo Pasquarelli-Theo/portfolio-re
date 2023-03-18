@@ -5,16 +5,16 @@ import bouton from "@/components/bouton.vue";
 <template>
   <main class="bg-dark_grey1">
     <div class="flex justify-center">
-      <h2 class="font-aesthetic text-8xl text-white">T</h2>
-      <h2 class="mt-5 font-aesthetic text-7xl text-white">HÉO</h2>
-      <h2 class="ml-4 font-aesthetic text-8xl text-white">P</h2>
-      <h2 class="mt-5 font-aesthetic text-7xl text-white">ASQUARELLI</h2>
+      <h2 class="font-aesthetic text-4xl lg:text-8xl text-white">T</h2>
+      <h2 class="mt-2 lg:mt-5 font-aesthetic text-2xl lg:text-7xl text-white">HÉO</h2>
+      <h2 class="ml-4 font-aesthetic text-4xl lg:text-8xl text-white">P</h2>
+      <h2 class="mt-2 lg:mt-5 font-aesthetic text-2xl lg:text-7xl text-white">ASQUARELLI</h2>
     </div>
-    <div class="relative z-20 -ml-28 flex justify-center">
-      <img src="../assets/info.png" alt="Photo de Théo Pasquaelli divisé en plusieurs blocs" class="" />
+    <div class="relative z-20 lg:-ml-28 flex justify-center">
+      <img src="../assets/info.png" alt="Photo de Théo Pasquaelli divisé en plusieurs blocs" class="lg:h-auto h-72" />
     </div>
-    <div class="absolute right-0 z-0 -mt-40"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="" /></div>
-    <h4 class="ml-44 font-arsenica text-4xl text-white">Designer & Web Designer</h4>
+    <div class="absolute right-0 z-0 -mt-40"><img src="../assets/CroixProjets.png" alt="amas de petite croix" class="lg:h-auto h-72" /></div>
+    <h4 class="ml-4 lg:ml-44 font-arsenica text-2xl lg:text-4xl text-white">Designer & Web Designer</h4>
     <div class="flex justify-center">
       <p class="mt-10 w-9/12 font-okineR text-base text-white">
         Bonjour ! Je m’appelle Théo Pasquarelli et je vous souhaite la bienvenue sur mon portfolio. Depuis toujours je suis passionné par la
@@ -24,7 +24,7 @@ import bouton from "@/components/bouton.vue";
         le monde du design et du web design, je suis ouvert à tout type de projet et ai hâte d’emmagasiner de l’expérience.
       </p>
     </div>
-    <h4 class="ml-44 mt-20 font-arsenica text-4xl text-white">Parcours et compétences</h4>
+    <h4 class="ml-4 lg:ml-44 font-arsenica text-2xl lg:text-4xl mt-20 text-white">Parcours et compétences</h4>
     <div class="flex justify-center">
       <p class="mt-10 w-9/12 font-okineR text-base text-white">
         Après avoir obtenu mon baccalauréat général option mathématiques et physique chimie, je me suis dirigé vers un BUT Métiers du
@@ -33,44 +33,44 @@ import bouton from "@/components/bouton.vue";
         mais également en audiovisuel, en communication ainsi que des notions de développement web.
       </p>
     </div>
-    <div class="mt-24 mr-36 ml-36 grid grid-flow-row-dense grid-cols-4">
+    <div class="lg:mt-24 lg:mr-36 lg:ml-36 m-5 grid grid-flow-row-dense grid-cols-4">
       <div class="text-center">
-        <img src="../assets/illustrator.png" alt="Logo d'Illustrator" class="inline-flex w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">Illustrator</p>
+        <img src="../assets/illustrator.png" alt="Logo d'Illustrator" class="inline-flex lg:w-16 w-10" />
+        <p class="font-okineL text-sm font-light text-white">Illustrator</p>
       </div>
       <div class="text-center">
-        <img src="../assets/figma.png" alt="Logo de Figma" class="inline-flex h-auto w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">Figma</p>
+        <img src="../assets/figma.png" alt="Logo de Figma" class="inline-flex lg:h-auto lg:w-16 h-10" />
+        <p class="font-okineL text-sm font-light text-white">Figma</p>
       </div>
       <div class="text-center">
-        <img src="../assets/photoshop.png" alt="Logo de Photoshop" class="inline-flex w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">Photoshop</p>
+        <img src="../assets/photoshop.png" alt="Logo de Photoshop" class="inline-flex lg:w-16 w-10" />
+        <p class="font-okineL text-sm font-light text-white">Photoshop</p>
       </div>
       <div class="text-center">
-        <img src="../assets/indesign.png" alt="Logo de InDesign" class="inline-flex w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">InDesign</p>
-      </div>
-    </div>
-
-    <div class="mt-16 mb-16 mr-72 ml-72 grid grid-flow-row-dense grid-cols-3">
-      <div class="text-center">
-        <img src="../assets/after.png" alt="Logo d'After Effect" class="inline-flex w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">After</p>
-      </div>
-      <div class="text-center">
-        <img src="../assets/premiere.png" alt="Logo de PremierePro" class="inline-flex h-auto w-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">Premiere Pro</p>
-      </div>
-      <div class="text-center">
-        <img src="../assets/vscode.png" alt="Logo de VS Code" class="inline-flex h-16" />
-        <p class="inline-tabl font-okineL text-sm font-light text-white">VS Code</p>
+        <img src="../assets/indesign.png" alt="Logo de InDesign" class="inline-flex lg:w-16 w-10" />
+        <p class="font-okineL text-sm font-light text-white">InDesign</p>
       </div>
     </div>
 
-    <div class="grid grid-flow-row-dense grid-cols-2 bg-white">
+    <div class="lg:mt-16 lg:mb-16 lg:mr-72 lg:ml-72 m-5 grid grid-flow-row-dense grid-cols-3">
+      <div class="text-center">
+        <img src="../assets/after.png" alt="Logo d'After Effect" class="inline-flex lg:w-16 w-10" />
+        <p class="font-okineL text-sm font-light text-white">After</p>
+      </div>
+      <div class="text-center">
+        <img src="../assets/premiere.png" alt="Logo de PremierePro" class="inline-flex lg:h-auto lg:w-16 h-10" />
+        <p class="font-okineL text-sm font-light text-white">Premiere Pro</p>
+      </div>
+      <div class="text-center">
+        <img src="../assets/vscode.png" alt="Logo de VS Code" class="inline-flex lg:h-16 h-10" />
+        <p class="font-okineL text-sm font-light text-white">VS Code</p>
+      </div>
+    </div>
+
+    <div class="lg:h-auto h-80 lg:grid lg:grid-flow-row-dense lg:grid-cols-2 bg-white">
       <div>
         <br />
-        <p class="mt-9 mb-16 ml-64 w-80 font-arsenica text-4xl font-semibold">Envie de collaborer sur une projet ?</p>
+        <p class="mt-9 mb-16 lg:ml-64 ml-2 w-80 font-arsenica text-xl lg:text-4xl font-semibold">Envie de collaborer sur une projet ?</p>
       </div>
       <div class="mt-20">
         <RouterLink to="/contact"><p class="-ml-44 text-center text-2xl font-medium">Me contacter</p></RouterLink>
@@ -82,4 +82,3 @@ import bouton from "@/components/bouton.vue";
   </main>
 </template>
 
-<script></script>
